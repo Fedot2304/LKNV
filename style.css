@@ -1,10 +1,11 @@
-#conteiner{
+.conteiner{
 	margin: 0px auto;
-	max-width: 1146px;
+	width: 1146px;
 	overflow: hidden;
-	height: 100px;
+	height: 100%;
 }
 body{
+	width: auto;
 	margin: 0;
 	padding: 0;
 	font-family: 'Rubik', sans-serif;
@@ -12,8 +13,9 @@ body{
 header{
 	position: absolute;
 	width: 480px;
-	height: 42px;
+	height: 60px;
 	z-index: 50;
+	display: flex;
 }
 header h1{
 	margin-top: 13px;
@@ -29,16 +31,76 @@ header p{
 	font-size: 17px;
 	line-height: 2px;
 }
-#gf{
+#hd1{
+	width: 200px;
+	margin: 0px 0px 0px 35px;
+}
+#tg2{
+	width: 26px;
+	height: 25px;
+	margin-left: 120px;
+	margin-right: 20px;
+}
+#df{
+	margin-top: 20px;
 }
 #one{
-	position: absolute;
-	background-image: url(images/bg.png) ;
 	width: 1146px;
+	height: 840px;
+}
+#frst{
+	background-image: url(images/bg.png);
+	width: 100%;
+	background-repeat: no-repeat;
 	height: 587px;
 }
+#frst h1{
+	position: absolute;
+	margin-top: 250px;
+	width: 636px;
+	height: 131px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 117.69%;
+	display: flex;
+	align-items: center;
+	color: #111111;
+	margin-left: 31px;
+	margin-top: 157px;
+}
+#scnd{
+	position: absolute;
+	z-index: 1;
+	margin-top: -587px;
+	margin-left: 667px;
+	box-shadow: 0px 4px 6px 4px rgba(0, 0, 0, 0.25);
+}
 @media screen and (max-width: 520px){
-	#conteiner{
-		width: 499px;
+	.conteiner{
+		width: 519px;
+	}
+	#df{
+		margin-left: 68px;
+	}
+	#tg2{
+		margin-right: 5px;
+		margin-left: 11px;
+	}
+	#frst{
+		height: 40%;
+	}
+	#frst h1{
+		margin-top: 50px;
+		font-size: 30px;
+		width: 270px;
+		line-height: 90%;
+	}
+	#scnd{
+		margin-left: 300px;
+		margin-top: -337px;
+	}
+	#scnd img{
+		width: 200px;
 	}
 }
