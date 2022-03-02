@@ -107,7 +107,7 @@ header p{
 
 @media screen and (max-width: 520px){
 	.conteiner{
-		width: 500px;
+		max-width: 500px;
 	}
 	#df{
 		margin-left: 68px;
