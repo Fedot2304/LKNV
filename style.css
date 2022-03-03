@@ -114,9 +114,8 @@ header p{
 	margin-top: 17px;
 }
 .two h1{
-	position: absolute;
-	margin-left: 540px;
-	margin-top: 100px;
+	margin-left: 20px;
+	margin-top: 17px;
 	width: 532px;
 	height: 128px;
 	font-weight: 600;
@@ -127,7 +126,7 @@ header p{
 	width: 544px;
 	height: 256px;
 	margin-left: 40px;
-	margin-top: 262px;
+	margin-top: 163px;
 	list-style: url(images/37.png);
 }
 .two li{
@@ -137,25 +136,31 @@ header p{
 	font-size: 17px;
 }
 .two a{
+	margin-left: 350px;
+	position: absolute;
+	width: 200px;
+	text-decoration: none;
+}
+#pdf{
 	width: 208px;
 	height: 61px;
-	margin-top: 520px;
-	margin-left: -250px;
+	margin-top: 0px;
+	margin-left: 5px;
 	border: 1px solid #000000;
 	box-sizing: border-box;
 	border-radius: 33px;
-	text-decoration: none;
 }
 #bt{
 	color: #000000;
 	font-size: 19px;
 	align-items: center;
 	font-weight: 600;
-	margin-left: 40px;
+	margin-left: 35px;
 	line-height: 113.5%;
 }
+
 #img10{
-	width: 1146px;
+	width: 100%;
 }
 .ub{
 	position: absolute;
@@ -200,6 +205,9 @@ header p{
 	margin-top: 100px;
 	margin-left: 660px;
 }
+.four{
+	margin-top: 20px;
+}
 
 
 
@@ -210,9 +218,6 @@ header p{
 		width: 100%;
 		margin: 0px 0px 0px 0px;
 	
-	}
-	body{
-		overflow: hidden;
 	}
 	header{
 		width: auto;
@@ -280,49 +285,59 @@ header p{
 	#img9{
 		width: 45%;
 		height: 45%;
-		margin-top: 30px;
-		margin-left: 15px;
+		margin-top: 35px;
+		margin-left: 10px;
 	}
 	.two{
 		width: 100%;
 		margin-top: -90px;
 	}
 	.two h1{
-		margin-left: 208px;
+		margin-left: 12px;
 		margin-top: 40px;
 		font-size: 19px;
 		width: 200px;
 		height: 50px;
+		margin-bottom: 0px;
 		line-height: 20px;
 	}
 	.two ul{
 		height: auto;
 		padding-left: 9px;
-		margin-top: 90px;
+		margin-top: 0px;
 		margin-left: 10px;
 		width: 180px;
 		list-style: url(images/37.2.png);
 	}
 	.two li{
-		margin-top: 15px;
+		margin-top: 10px;
 		width: 175px;
 		font-size: 11px;
 	}
 	.two a{
-		margin-top: 290px;
-		margin-left: -351px;
+		margin-top: -35px;
+		margin-left: -150px;
 		width: 120px;
 		height: 40px;
+		position: block;
+	}
+	#pdf{
+		width: 120px;
+		height: 30px;
 	}
 	#bt{
 		margin-left: 14px;
 		width: 90px;
 		height: 35px;
-		margin-top: 11px;
+		margin-top: 6px;
 		font-size: 13px;
 	}
 	#img10{
+		margin-top: 15px;
 		width: 100%;
+	}
+	.three{
+		height: auto;
 	}
 	.ub{
 		margin-left: 20px;
