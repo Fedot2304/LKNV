@@ -106,7 +106,7 @@ header p{
 	margin-left: 50px;
 }
 .two{
-	width: auto;
+	width: 100%;
 	display: flex;
 }
 #img9{
@@ -114,7 +114,7 @@ header p{
 	margin-top: 17px;
 }
 .two h1{
-	margin-left: 20px;
+	margin-left: 50px;
 	margin-top: 17px;
 	width: 532px;
 	height: 128px;
@@ -124,19 +124,21 @@ header p{
 }
 .two ul{
 	width: 544px;
-	height: 256px;
+	height: 340px;
 	margin-left: 40px;
-	margin-top: 163px;
+	margin-top: 20px;
 	list-style: url(images/37.png);
 }
 .two li{
-	margin-top: 20px;
-	width: 532px;
+	margin-top: 25px;
+	width: 520px;
 	font-weight: 600;
-	font-size: 17px;
+	font-size: 22px;
+	line-height: 28px;
 }
 .two a{
-	margin-left: 350px;
+	margin-top: 10px;
+	margin-left: 370px;
 	position: absolute;
 	width: 200px;
 	text-decoration: none;
@@ -160,6 +162,7 @@ header p{
 }
 
 #img10{
+	margin-top: 30px;
 	width: 100%;
 }
 .ub{
@@ -206,7 +209,47 @@ header p{
 	margin-left: 660px;
 }
 .four{
-	margin-top: 20px;
+	position: absolute;
+	width: 1146px;
+	margin-top: 35px;
+	background: #828282 ;
+}
+#line1{
+	width: 80%;
+	height: 1px;
+	background: #FFFFFF;
+	;
+	margin: 55px auto 0 auto;
+}
+.four h1{
+	margin: 30px auto 0 auto;
+	font-size: 60px;
+	font-weight: 600;
+	width: 804px;
+	color: #FFFFFF;
+	;
+}
+.pak{
+	width: 100%;
+	display: flex;
+}
+#pak1{
+	margin-left: 10px;
+	margin-top: 80px;
+	width: 387px;
+	height: 100%;
+}
+#pak2{
+	margin-left: -20px;
+	margin-top: 60px;
+	width: 385px;
+	height: 100%;
+}
+#pak3{
+	margin-left: -20px;
+	margin-top: 36px;
+	width: 389px;
+	height: 100%;
 }
 
 
@@ -313,10 +356,11 @@ header p{
 		margin-top: 10px;
 		width: 175px;
 		font-size: 11px;
+		line-height: 13px;
 	}
 	.two a{
 		margin-top: -35px;
-		margin-left: -150px;
+		margin-left: -157px;
 		width: 120px;
 		height: 40px;
 		position: block;
@@ -377,4 +421,31 @@ header p{
 		margin-left: 250px;
 		margin-top: 15px;
 	}
+	.four{
+		width: 100%;
+	}
+	#line1{
+		margin-top: 25px;
+	}
+	.four h1{
+		margin-left: 52px;
+		width: 320px;
+		font-size: 24px;
+	}
+	#pak1{
+		margin-top: 36px;
+		margin-left: 5px;
+		width: 140px;
+	}
+	#pak2{
+		margin-top: 29px;
+		margin-left: -7px;
+		width: 140px;
+	}
+	#pak3{
+		margin-top: 20px;
+		margin-left: -7px;
+		width: 140px;
+	}
+
 }
