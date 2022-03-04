@@ -492,14 +492,14 @@ header p{
 	}
 	/*--five--*/
 	.five{
-		padding: 40px 10px 40px 10px;
+		padding: 30px 10px 40px 10px;
 	}
 	#ng{
 		width: 40%;
 		height: 40%;
 	}
 	.sk{
-		width: 150px;
+		width: 140px;
 		padding-left: 30px;
 	}
 	.sk h1{
@@ -508,9 +508,9 @@ header p{
 		margin-bottom: 30px;
 	}
 	.sk p{
-		font-size: 7px;
-		margin-top: 2px;
-		margin-left: 80px;
+		font-size: 8px;
+		margin-top: -4px;
+		margin-left: 60px;
 	}
 	.cen{
 		width: 50px;
@@ -519,9 +519,11 @@ header p{
 	}
 	.cen_img{
 		display: flex;
-		margin-bottom: 40px;
+		margin-bottom: 35px;
 		width: 60%;
-		
+	}
+	#img199{
+		margin-top: 5px;
 	}
 
 }
