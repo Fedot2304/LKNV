@@ -212,17 +212,18 @@ header p{
 	margin-left: 660px;
 }
 .four{
-	position: absolute;
+	padding-bottom: 55px;
+	padding-top: 55px;
 	width: 1146px;
 	margin-top: 35px;
 	background: #828282 ;
 }
-#line1{
+.line1{
 	width: 80%;
 	height: 1px;
 	background: #FFFFFF;
 	;
-	margin: 55px auto 0 auto;
+	margin: 0px auto 0 auto;
 }
 .four h1{
 	margin: 30px auto 0 auto;
@@ -254,7 +255,43 @@ header p{
 	width: 389px;
 	height: 100%;
 }
-
+#line2{
+	width: 80%;
+	height: 1px;
+	background: #FFFFFF;
+	margin: 99px auto 0px auto;
+}
+.five{
+	display:flex;
+	padding: 97px 30px 100px 30px;
+}
+.sk{
+	padding-left: 100px;
+}
+.sk h1{
+	margin: 0px 0px 70px 0px;
+	font-size: 60px;
+	line-height: 100.5%;
+	font-weight: bold;
+}
+#sk_h{
+	margin-bottom: 0px;
+}
+.sk p{
+	position: absolute;
+	margin-left: 272px;
+	margin-top: -10px;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 18px;
+}
+.cen{
+	padding-top: 25px;
+	padding-left: 50px;
+}
+.cen_img{
+	margin-bottom: 100px;
+}
 
 
 
@@ -449,6 +486,42 @@ header p{
 		margin-top: 20px;
 		margin-left: -7px;
 		width: 140px;
+	}
+	#line2{
+		margin-top: 30px;
+	}
+	/*--five--*/
+	.five{
+		padding: 40px 10px 40px 10px;
+	}
+	#ng{
+		width: 40%;
+		height: 40%;
+	}
+	.sk{
+		width: 150px;
+		padding-left: 30px;
+	}
+	.sk h1{
+		display: flex;
+		font-size: 18px;
+		margin-bottom: 30px;
+	}
+	.sk p{
+		font-size: 7px;
+		margin-top: 2px;
+		margin-left: 80px;
+	}
+	.cen{
+		width: 50px;
+		padding-left: 0px;
+		padding-top: 0px;
+	}
+	.cen_img{
+		display: flex;
+		margin-bottom: 40px;
+		width: 60%;
+		
 	}
 
 }
