@@ -293,7 +293,7 @@ header p{
 	margin-bottom: 100px;
 }
 .six{
-	padding: 90px 35px 0px 35px;
+	padding: 90px 0px 0px 0px;
 }
 #bg{
 	padding: 47px 44px 47px 44px;
@@ -332,7 +332,43 @@ header p{
 	font-size: 17px;
 	font-weight: normal;
 	margin-bottom: 34px;
-
+}
+.seven{
+	padding: 75px 65px 2px 70px;
+	margin-bottom: 100px;
+}
+.seven h1{
+	font-weight: bold;
+	font-size: 40px;
+	margin: 0px 0px 21px 23px;
+}
+.seven_flex{
+	display: flex;
+}
+.s_1{
+	width: 34%;
+}
+.s_ul{
+	background: #989488;
+	border-radius: 10px;
+	height: 29%;
+	margin-bottom: 20px;
+}
+.s_ul ul{
+	list-style: url(images/6.png);
+	padding: 29px 27px 25px 41px;
+}
+.s_ul li{
+	color: #FFFFFF;
+	font-size: 17px;
+	margin-bottom: 27px;
+}
+#img6{
+	margin-bottom: 45px;
+}
+.phone{
+	margin-top: 20px;
+	margin-left: 122px;
 }
 
 
@@ -576,7 +612,7 @@ header p{
 	}
 	/*--six--*/
 	.six{
-		padding: 30px 10px ;
+		padding-top: 20px;
 	}
 	#lonas_a{
 		margin-bottom: 20px;
@@ -609,5 +645,33 @@ header p{
 	#do_2 li{
 		font-size: 12px;
 		margin-bottom: 15px;
+	}
+	/*--Seven--*/
+	.seven{
+		padding: 20px 10px ;
+	}
+	.seven h1{
+		font-size: 40px;
+		margin-left: 10px;
+	}
+	.s_1{
+		width: 50%;
+	}
+	.phone{
+		margin-left: 10px;
+
+	}
+	#phone{
+		width: 80%;
+	}
+	.s_ul{
+		height: auto;
+	}
+	.s_ul ul{
+		list-style: url(images/6.2.png);
+		padding: 20px 10px 15px 25px;
+	}
+	.s_ul li{
+		font-size: 14px;
 	}
 }
