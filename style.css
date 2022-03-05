@@ -363,7 +363,7 @@ header p{
 	font-size: 17px;
 	margin-bottom: 27px;
 }
-#img6{
+#img7{
 	margin-bottom: 45px;
 }
 .phone{
@@ -651,27 +651,39 @@ header p{
 		padding: 20px 10px ;
 	}
 	.seven h1{
-		font-size: 40px;
+		font-size: 30px;
 		margin-left: 10px;
 	}
 	.s_1{
 		width: 50%;
 	}
 	.phone{
-		margin-left: 10px;
+		margin-top: 15px;
+		margin-left: 20px;
 
 	}
 	#phone{
-		width: 80%;
+		width: 90%;
 	}
 	.s_ul{
-		height: auto;
+		height: 311px;
 	}
 	.s_ul ul{
 		list-style: url(images/6.2.png);
-		padding: 20px 10px 15px 25px;
+		padding: 30px 10px 15px 25px;
 	}
 	.s_ul li{
-		font-size: 14px;
+		font-size: 15px;
+		margin-bottom: 50px;
+		line-height: 20px;
+	}
+	#li_last{
+		margin-bottom: 0px;
+	}
+	#img7{
+		width: 394px;
+	}
+	#img6{
+		width: 394px;
 	}
 }
