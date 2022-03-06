@@ -379,6 +379,46 @@ header p{
 	height: 240px;
 	background-image: url(images/image6.png);
 }
+.eight{
+	background: #828282;
+	color: white;
+	padding: 60px 30px 25px 30px ;
+}
+.eight h1{
+	margin: 0px 0px 23px 0px;
+	font-weight: bold;
+	font-size: 60px;
+}
+.al_z{
+	width: auto;
+}
+.al_flex{
+	margin-top: 23px;
+	display: flex;
+	margin-bottom: 60px;
+}
+.al_do{
+	margin-left: 64px;
+}
+.al_do h1{
+	font-weight: 500;
+	font-size: 60px;
+}
+.al_do ul{
+	margin-left: -10px;
+	list-style: url(images/6.png);
+}
+.al_do li{
+	margin-bottom: 25px;
+	font-weight: 500;
+	font-size: 20px;
+}
+.al_posle h1{
+	margin-bottom: 0px;
+}
+#img25{
+	margin-top: -20px;
+}
 
 
 
@@ -657,7 +697,8 @@ header p{
 	}
 	/*--Seven--*/
 	.seven{
-		padding: 40px 10px 20px 10px ;
+		padding: 40px 10px 0px 10px ;
+		margin-bottom: 20px;
 	}
 	.seven h1{
 		font-size: 30px;
@@ -706,5 +747,36 @@ header p{
 	#im{
 		width: 414px;
 		display: flex;
+	}
+	/*--Eight--*/
+	.eight{
+		padding: 25px 10px;
+	}
+	.eight h1{
+		font-size: 23px;
+		margin-bottom: 10px;
+	}
+	.al_z{
+		width: 40%;
+	}
+	#img11{
+		width: 50%;
+	}
+	.al_do{
+		margin-left: 20px;
+	}
+	.al_do ul{
+		padding-left: 25px;
+		list-style: url(images/6.2.png);
+	}
+	.al_do li{
+		font-size: 13px;
+	}
+	.al_flex{
+		margin-bottom: 15px;
+	}
+	#img25{
+		width: 100%;
+		margin-top: -25px;
 	}
 }
