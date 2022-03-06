@@ -435,8 +435,61 @@ header p{
 	margin: -309px auto 0px 233px;
 	position: absolute;
 }
-
-
+.eleven{
+	padding: 0px 30px 88px 30px;
+}
+.eleven h1{
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 86%;
+	margin: 0px 0px 15px 0px;
+}
+#img6f{
+	margin-top: 46px;
+}
+/*--Slider----*/
+.line3{
+	width: 100%;
+	height: 2px;
+	background: #000000;
+	margin: 0px 0px 70px 0px;
+}
+#cnt{
+	margin-top: 40px;
+	margin-bottom: 82px;
+}
+#slider{
+	margin: 0 auto;
+	width: 534px;
+	height: 713px;
+	overflow: hidden;
+}
+#slider-line{
+	height: 713px;
+	width: 2136px;
+	display: flex;
+	position: relative;
+	left: 0;
+	transition: all ease 0.6s;
+}
+#next{
+	position: absolute;
+	margin-left: 950px;
+	margin-top: -480px;
+	border: 0px;
+}
+#prew{
+	position: absolute;
+	margin-left: 147px;
+	margin-top: -480px;
+	border: 0px;
+}
+#prew_1{
+	display: none;
+}
+#next_1{
+	display: none;
+}
 
 
 @media screen and (max-width: 450px){
@@ -814,5 +867,59 @@ header p{
 		margin-left: 83px;
 		width: 280px;
 		margin-top: -94px;
+	}
+	/*--eleven--*/
+	.eleven{
+		padding: 0px 15px 30px 15px;
+	}
+	.eleven h1{
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+	#hm{
+		width: 30%;
+	}
+	#img6f{
+		width: 100%;
+		margin-top: 20px;
+	}
+	/*--Twelve--*/
+	#next{
+		display: none;
+	}
+	#prew{
+		display: none;
+	}
+	#slider{
+		width: 414px;
+		height: auto;
+	}
+	#slider-line{
+		width: 2070px;
+		height: auto;
+	}
+	#cnt{
+		margin-bottom: 20px;
+	}
+	.sl_img{
+		width: 414px;
+		height: auto;
+	}
+	#next_1{
+		display: contents;
+	}
+	#prew_1{
+		display: contents;
+	}
+	#next_img{
+		margin-left: 60px;
+		width: 50px;
+	}
+	#prew_img{
+		width: 50px;
+	}
+	#btn{
+		width: 164px;
+		margin: 0 auto;
 	}
 }
