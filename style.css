@@ -510,7 +510,7 @@ header p{
 	width: 50%;
 }
 .line_vert{
-	height: 1056px;
+	height: auto;
 	width: 2px;
 	background: #000000;
 
@@ -1011,12 +1011,8 @@ header p{
 	}
 	.img25{
 		width: 177px;
-		margin: 0 ;
 		margin-left: 4%;
 		margin-top: 135px;
-	}
-	.line_vert{
-		height: 450px;
 	}
 	._13_flex{
 		height: auto;
