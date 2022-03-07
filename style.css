@@ -533,7 +533,7 @@ header p{
 	float: right;
 	margin: 0px 61px 0px 61px;
 }
-#img25{
+.img25{
 	float: left;
 	margin: 310px 0px 0px 68px;
 }
@@ -997,6 +997,9 @@ header p{
 		padding: 0 10px;
 		padding-bottom: 50px;
 	}
+	.line_vert{
+		margin: 0 auto;
+	}
 	._13_flex{
 		width: 100%;
 	}
@@ -1010,10 +1013,9 @@ header p{
 	}
 	#img24{
 		width: 177px;
-		margin-right: 10px;
-		margin-left: 0;
+		margin: 0 auto;
 	}
-	#img25{
+	.img25{
 		width: 177px;
 		margin: 0 10px;
 		margin-top: 135px;
