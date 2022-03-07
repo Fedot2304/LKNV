@@ -510,11 +510,10 @@ header p{
 	width: 50%;
 }
 .line_vert{
-	position: absolute;
 	height: 1056px;
 	width: 2px;
 	background: #000000;
-	margin: 0 543px;
+
 }
 .line5{
 	width: 100%;
@@ -997,12 +996,6 @@ header p{
 		padding: 0 10px;
 		padding-bottom: 50px;
 	}
-	.line_vert{
-		margin: 0 auto;
-	}
-	._13_flex{
-		width: 100%;
-	}
 	._13 h1{
 		font-size: 25px;
 		margin-bottom: 10px;
@@ -1012,20 +1005,21 @@ header p{
 		margin-bottom: 29px;
 	}
 	#img24{
+		margin: 0;
+		margin-right: 4%;
 		width: 177px;
-		margin: 0 auto;
 	}
 	.img25{
 		width: 177px;
-		margin: 0 10px;
+		margin: 0 ;
+		margin-left: 4%;
 		margin-top: 135px;
 	}
 	.line_vert{
 		height: 450px;
-		margin: 0 197px;
 	}
 	._13_flex{
-		height: 450px;
+		height: auto;
 	}
 	/*---_14---*/
 	._14 h1{
