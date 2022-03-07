@@ -530,9 +530,11 @@ header p{
 	margin-bottom: 60px;
 }
 #img24{
+	float: right;
 	margin: 0px 61px 0px 61px;
 }
 #img25{
+	float: left;
 	margin: 310px 0px 0px 68px;
 }
 ._14{
@@ -995,6 +997,9 @@ header p{
 		padding: 0 10px;
 		padding-bottom: 50px;
 	}
+	._13_flex{
+		width: 100%;
+	}
 	._13 h1{
 		font-size: 25px;
 		margin-bottom: 10px;
@@ -1005,7 +1010,8 @@ header p{
 	}
 	#img24{
 		width: 177px;
-		margin: 0 10px;
+		margin-right: 10px;
+		margin-left: 0;
 	}
 	#img25{
 		width: 177px;
@@ -1029,6 +1035,7 @@ header p{
 		width: 25%;
 	}
 	#vid{
+		margin-top: 65px;
 		margin-left: 39px;
 		width: 315px;
 	}
