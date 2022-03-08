@@ -10,9 +10,42 @@ body{
 	padding: 0px 0px 0px 0px;
 	font-family: 'Rubik', sans-serif;
 }
-#dgf{
-	padding: 0 auto;
+footer{
+	position: absolute;
+	width: 1920px;
+	height: 144px;
+	background: #000;
+	color: white;
 }
+#fo{
+	margin-right: 192px;"
+}
+.foot{
+	display: flex;
+	padding: 47px 582px 58px 593px;
+}
+.foot h1{
+	margin: 0;
+	font-weight: 600;
+	font-size: 14px;
+}
+.foot p{
+	margin: 0;
+	font-weight: normal;
+	font-size: 12px;
+}
+.inst{
+	margin-right: 21px;
+}
+#omo{
+
+	width: 138px;
+	height: 19px;
+	margin: auto 0px auto 192px;
+}
+
+
+
 header{
 	position: absolute;
 	width: 480px;
@@ -612,6 +645,50 @@ header p{
 	height: auto;
 	background: white;
 }
+#kurs{
+	width: 100%;
+}
+._16{
+	width: 100%;
+	padding-bottom: 100px;
+}
+#gr29{
+	width: 1087px;
+	margin: 100px auto 100px 30px;
+}
+._16 h1{
+	font-size: 40px;
+	margin: 0 0 30px 35px;
+	font-weight: 600;
+}
+#gr30{
+	margin-bottom: 75px;
+}
+._16 p{
+	font-size: 17px;
+	font-weight: 600;
+	color: #000;
+	width: 167px;
+	margin: 0px auto;
+	margin-top: 41px;
+}
+.pk{
+	width: 335px;
+	height: 98px;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 33px;
+}
+._16 a{
+	text-decoration: none;
+}
+#a_2{
+	display: none;
+}
+#ph{
+	display: none;
+}
+
 
 
 
@@ -1177,6 +1254,79 @@ header p{
 		width: 80%;
 		height: 2px;
 	}
+	/*---_16---*/
+	._16{
+		padding-bottom: 50px;
+	}
+	#gr29{
+		margin-top: 60px;
+		margin-left: 0px;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	._16 h1{
+		display: none;
+	}
+	#gr30{
+		display: none;
+	}
+	#a_1{
+		display: none;
+	}
+	#a_2{
+		margin: 0 auto;
+		width: 160px;
+		display: block;
+	}
+	#ph{
+		width: 100%;
+		display: block;
 
+	}
+	.pk{
+		margin-top: 30px;
+		width: 160px;
+		height: 40px;
+	}
+	.pk p{
+		margin-top: 10px;
+		width: 140px;
+		font-size: 14px;
+	}
+	/*----footer---*/
+	footer{
+		width: 100%;
+		height: 52px;
+	}
+	.foot{
+		padding: 11px 50px 12px 60px ;
+	}
+	.foot h1{
+		font-size: 11px;
+	}
+	.foot p{
+		font-size: 7px;
+	}
+	#fo{
+		height: 15px;
+		margin-right: 20px;
+		width: 111px;
+	}
+	#omo{
+		width: 70px;
+		height: auto;
+		margin-left: 30px;
+		float: right;
+	}
+	.inst{
+		margin-right: 5px;
+	}
+	.inst_{
+		width: 20px;
+	}
+	.tg_{
+		height: 20px;
+		width: 20px;
+	}
 
 }
