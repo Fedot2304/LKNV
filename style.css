@@ -493,8 +493,10 @@ header p{
 	margin-left: 950px;
 	margin-top: -480px;
 	border: 0px;
+	background: white;
 }
 #prew{
+	background: white;
 	position: absolute;
 	margin-left: 147px;
 	margin-top: -480px;
@@ -571,6 +573,50 @@ header p{
 	width: 476px;
 	margin-left: 304px;
 }
+
+._15{
+	background: #828282;
+	width: 100%;
+	margin-bottom: 100px;
+}
+._15_flex{
+	display: flex;
+}
+._15_flex h1{
+	color: white;
+	font-size: 60px;
+	font-weight: 600;
+	margin-top: 94px;
+	margin-bottom: 70px;
+	margin-right: 260px;
+	float: right;
+}
+._1{
+	width: 50%;
+}
+._2{
+	width: 50%;
+}
+#otz_1{
+	float: right;
+	margin-right: 85px;
+	margin-bottom: 162px;
+}
+#otz_2{
+	float: left;
+	margin-left: 85px;
+	margin-top: 228px;
+}
+.line_v{
+	width: 3px;
+	height: auto;
+	background: white;
+}
+
+
+
+
+
 
 
 
@@ -896,7 +942,8 @@ header p{
 
 	}
 	#phone{
-		width: 190px;
+		height: 372px;
+		width: 180px;
 	}
 	.s_ul{
 		width: 200px;
@@ -919,6 +966,7 @@ header p{
 		background-image: url(images/image7_2.png);
 		width: 200px;
 		height: 125px;
+		background-size: 200px;
 		background-repeat: no-repeat;
 		margin-bottom: 10px;
 	}
@@ -1089,5 +1137,46 @@ header p{
 		margin-left: 39px;
 		width: 315px;
 	}
+	/*---_15---*/
+	._15{
+		padding-top: 30px;
+		background: #828282;
+	}
+	._15_flex{
+		display: block;
+	}
+	._15_flex h1{
+		width: 117px;
+		float: none;
+		font-weight: 500;
+		margin: 0px auto 45px auto;
+		font-size: 30px;
+	}
+	._1{
+		width: 100%;
+	}
+	#otz_1{
+		width: 80%;
+		float: none;
+		margin-left: 27px;
+		margin-bottom: 78px;
+	}
+	._2{
+		width: 100%;
+	}
+	#otz_2{
+		margin: 0;
+		width: 80%;
+		float: none;
+		margin-top: 70px;
+		margin-left: 45px;
+		margin-bottom: 63px;
+	}
+	.line_v{
+		margin: 0 auto;
+		width: 80%;
+		height: 2px;
+	}
+
 
 }
