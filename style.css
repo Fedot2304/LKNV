@@ -757,7 +757,7 @@ header p{
 		
 	}
 	#frst_p{
-		margin-top: 380px;
+		margin-top: 390px;
 		font-size: 17px;
 		font-weight: 500;
 		margin-left: 15px;
@@ -842,6 +842,7 @@ header p{
 	#bt{
 		margin-left: 14px;
 		width: 90px;
+		font-weight: 500;
 		height: 35px;
 		margin-top: 6px;
 		font-size: 13px;
@@ -860,6 +861,7 @@ header p{
 		width: 200px;
 		margin-top: 20px;
 		height: auto;
+		background: #BFBAB4;
 	}
 	#img2{
 		margin-left: 230px;
@@ -977,6 +979,7 @@ header p{
 	}
 	#bg{
 		padding: 20px 15px;
+		background: #BFBAB4;
 	}
 	#bg img{
 		width: 50%;
@@ -1217,7 +1220,7 @@ header p{
 	/*---_15---*/
 	._15{
 		padding-top: 30px;
-		background: #828282;
+		background: #BFBAB4;
 	}
 	._15_flex{
 		display: block;
