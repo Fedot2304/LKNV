@@ -419,6 +419,12 @@ header p{
 	font-size: 17px;
 	margin-bottom: 27px;
 }
+#img6_2{
+	display: none;
+}
+#img7_2{
+	display: none;
+}
 #img7{
 	margin-bottom: 30px;
 	background-image: url(images/image7.png);
@@ -1056,6 +1062,13 @@ header p{
 		margin-bottom: 0px;
 	}
 	#img7{
+		display: none;
+	}
+	#img6{
+		display: none;
+	}
+	#img7_2{
+		display: block;
 		background-image: url(images/img7_2.png);
 		width: 200px;
 		height: 110px;
@@ -1064,8 +1077,9 @@ header p{
 		margin-bottom: 25px;
 		border-radius: 9px;
 	}
-	#img6{
-		width: 208px;
+	#img6_2{
+		display: block;
+		width: 200px;
 		background-repeat: no-repeat;
 		background-image: url(images/img6_2.png);
 		background-size: 200px;
