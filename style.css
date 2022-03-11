@@ -1040,7 +1040,7 @@ header p{
 	.s_ul{
 		width: 200px;
 		height: auto;
-		margin-bottom: 20px;
+		margin-bottom: 25px;
 	}
 	.s_ul ul{
 		list-style: url(images/6.2.png);
@@ -1055,17 +1055,18 @@ header p{
 		margin-bottom: 0px;
 	}
 	#img7{
-		background-image: url(images/image7.png);
+		background-image: url(images/img7_2.png);
 		width: 200px;
-		height: 136px;
+		height: 110px;
 		background-size: 200px;
 		background-repeat: no-repeat;
-		margin-bottom: 10px;
+		margin-bottom: 25px;
+		border-radius: 9px;
 	}
 	#img6{
-		width: 219px;
+		width: 208px;
 		background-repeat: no-repeat;
-		background-image: url(images/image6.png);
+		background-image: url(images/img6_2.png);
 		background-size: 200px;
 	}
 	/*--Eight--*/
