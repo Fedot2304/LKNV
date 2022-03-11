@@ -52,35 +52,23 @@ body{
    margin-bottom: 60px;
 }
 .gr38{
-   margin: 0 auto;
+   width: 100%;
 }
 ._2_p{
-   margin: 0 auto;
-   width: 363px;
+   width: auto;
+   padding: 0px 20px;
 }
 .line_2{
    width: 100%;
    height: 3px;
-   margin-top: 88px;
+   margin-top: 60px;
    background: #000;
 }
 /*---_3---*/
-._3{
-   margin-bottom: 100px;
-}
-._3 h1{
-   margin-left: 15px;
-   margin-top: 100px;
-   font-weight: 500;
-   font-size: 29px;
-   margin-bottom: 19px;
-}
-.gr39{
-   width: 100%;
-}
 /*--_4--*/
 
 ._4{
+   margin-top: 60px;
    padding-left: 20px;
 }
 ._4 h1{
@@ -105,11 +93,13 @@ body{
    font-weight: 600;
    font-size: 18px;
    margin-bottom: 12px;
-   margin-top: 0;
+   margin-top: 30px;
 }
 .u{
-   margin-top: 30px;
+   background: #BFBAB4;
+   border-radius: 13px;
    width: 260px;
+   padding: 15px;
 }
 .u p{
    margin: 0;
@@ -204,13 +194,20 @@ body{
    font-size: 29px;
    line-height: 90%;
 }
+.u_8{
+   margin-top: 18px;
+   padding: 15px;
+   background: #BFBAB4;
+   border-radius: 13px;
+   width: 250px;
+}
 ._8 h1{
    margin-top: 25px;
    font-weight: 600;
    font-size: 18px;
 }
 ._8 p{
-   width: 250px;
+   width: auto;
    margin: 0px;
    font-weight: 400;
    font-size: 16px;
@@ -271,7 +268,11 @@ body{
    margin: 0px;
 }
 ._12u{
+   margin-top: 18px;
+   background: #BFBAB4;
+   border-radius: 13px;
    width: 70%;
+   padding: 15px;
 }
 ._12u h1{
    font-weight: 600;
@@ -342,6 +343,12 @@ body{
    font-weight: 500;
    font-size: 29px;
 }
+.u_16{
+   background: #BFBAB4;
+   border-radius: 13px;
+   padding: 15px;
+   margin-top: 18px;
+}
 ._16 h1{
    margin-top: 35px;
    font-size: 18px;
@@ -362,3 +369,136 @@ body{
    margin-bottom: 60px;
 }
 /*---_18---*/
+._18{
+   padding-right: 15px;
+}
+._18_h{
+   float: right;
+   width: 320px;
+   border: 2px solid black;
+}
+._18_h h2{
+   font-weight: 500;
+   font-size: 29px;
+   margin: 0;
+   margin-left: 5px;
+}
+.u_18 h1{
+   margin-top: 32px;
+   float: right;
+   font-weight: 600;
+   font-size: 18px;
+   margin-bottom: 0;
+}
+.u_18{
+   float: right;
+   width: 60%;
+}
+.u_18 p{
+   text-align: right;
+   float: right;
+   font-weight: 400;
+   margin-top: 5px;
+   font-size: 16px;
+   margin-bottom: 0;
+}
+/*--_19---*/
+._19{
+   margin-top: 60px;
+}
+#_19{
+   margin-top: 325px;
+}
+/*---_20---*/
+._20{
+   padding-left: 15px;
+   margin-top: 60px;
+}
+._20h{
+   width: 320px;
+   padding: 10px 5px;
+   border: 2px solid black;
+}
+._20h h2{
+   font-weight: 500;
+   font-size: 29px;
+   margin: 0;
+}
+.u20{
+   margin-top: 20px;
+   background: #BFBAB4;
+   border-radius: 13px;
+   padding: 15px;
+   width: 265px;
+}
+.u20 p{
+   margin: 0;
+}
+/*---_21---*/
+._21{
+   margin-top: 80px;
+   padding: 0 20px;
+}
+#img21{
+   width: 100%;
+}
+/*---_22---*/
+._22{
+   margin-top: 100px;
+}
+#t1{
+   margin-top: 50px;
+   width: 100%;
+}
+#t2{
+   margin-top: 25px;
+   width: 100%;
+}
+._22 h1{
+   text-align: center;
+   margin: 0;
+   font-weight: 500;
+   font-size: 36px;
+}
+/*----footer---*/
+footer{
+   margin-top: 50px;
+   width: 100%;
+}
+.foot{
+   display: flex;
+   background: #000;
+   padding: 11px 30px 12px 30px ;
+}
+.foot h1{
+   margin: 0;
+   color: white;
+   font-size: 11px;
+}
+.foot p{
+   margin: 0;
+   color: white;
+   font-size: 7px;
+}
+#fo{
+   height: 15px;
+   margin-right: 40px;
+   width: 111px;
+}
+#omo{
+   width: 53px;
+   height: 10px;
+   margin-left: 25px;
+   float: right;
+   margin-top: 5px;
+}
+.inst{
+   margin-right: 5px;
+}
+.inst_{
+   width: 20px;
+}
+.tg_{
+   height: 20px;
+   width: 20px;
+}
