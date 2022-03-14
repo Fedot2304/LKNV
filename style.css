@@ -950,12 +950,12 @@ header p{
 	}
 	/*--five--*/
 	.five{
-		padding: 30px 10px 30px 10px;
+		padding: 30px 10px 5px 10px;
 	}
 	#ng{
 		background-image: url(images/ng_2.png);
 		width: 100%;
-		height: 260px;
+		height: 300px;
 		background-repeat: no-repeat;
 		background-size: 100%;
 	}
@@ -997,9 +997,11 @@ header p{
 		padding-top: 20px;
 	}
 	#lonas_a{
+		margin-left: 15px;
 		margin-bottom: 20px;
 	}
 	.six h1{
+		margin-left: 15px;
 		font-size: 20px;
 	}
 	#lonas{
@@ -1385,4 +1387,85 @@ header p{
 		width: 20px;
 	}
 
+}
+
+
+
+
+
+@media screen and (max-width: 400px)
+{
+	.ub{
+		margin-left: 10px;
+	}
+	#img2{
+		margin-left: 215px ;
+	}
+	#img34{
+		margin-left: 225px;
+	}
+	.six h1{
+		margin-left: 10px;
+	}
+	#lonas_a{
+		margin-left: 10px;
+	}
+	.do{
+		padding-left: 10px;
+	}
+	#bg{
+		padding-left: 10px;
+	}
+	.seven{
+		padding-left: 5px;
+	}
+	.phone{
+		margin-left: 10px;
+	}
+	#ng{
+		height: 250px;
+	}
+
+	.s_1{
+		width: 180px;
+	}
+	.s_ul{
+		width: 100%;
+	}
+	#img7_2{
+		width: 100%;
+		background-size: 180px;
+	}
+	#img6_2{
+		width: 100%;
+	}
+	#kc_2{
+		margin-left: 70px;
+	}
+	#img26_2{
+		margin-left: 10px;
+	}
+	.img25{
+		height: auto;
+		width: 165px;
+		margin-top: 156px;
+	}
+	#img24{
+		width: 165px;
+		height: auto;
+		margin-top: 51px;
+	}
+	#vid{
+		margin-left: 20px;
+	}
+	
+	footer{
+		height: auto;
+	}
+	.foot{
+		padding: 10px 20px;
+	}
+	.instg{
+		margin-left: 10px;
+	}
 }
